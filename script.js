@@ -1,5 +1,5 @@
 // ========== KONFIGURASI ==========
-const API_KEY = '0a5db33fa7e32f073d46cf2f94b30a0a'; // <-- GANTI DENGAN KUNCI API-MU
+const API_KEY = '186570cd55b199a2e7ba5336127107de'; // <-- GANTI DENGAN KUNCI API-MU
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 // ========== AMBIL ELEMEN HTML ==========
