@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplikasi Cuaca</title>
+    <title>Aplikasi Cuaca Pro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>🌤️ Cek Cuaca</h1>
+    <div class="container" id="appContainer">
+        <h1>🌤️ Cek Cuaca <span class="badge">Pro</span></h1>
 
-        <!-- Bagian untuk mencari kota -->
+        <!-- AREA PENCARIAN -->
         <div class="search-area">
             <input type="text" id="cityInput" placeholder="Masukkan nama kota...">
             <button id="searchBtn">Cari</button>
+            <button id="locationBtn" title="Pakai lokasi saya">📍</button>
         </div>
 
-        <!-- Tempat informasi cuaca akan ditampilkan -->
+        <!-- CUACA SAAT INI -->
         <div id="weatherDisplay" class="weather-display">
-            <!-- Akan diisi oleh JavaScript -->
-            <p>Silakan cari kota untuk melihat cuaca.</p>
+            <p>Silakan cari kota atau gunakan lokasi Anda.</p>
+        </div>
+
+        <!-- PRAKIRAAN 5 HARI -->
+        <div id="forecastDisplay" class="forecast-display">
+            <h3>📅 Prakiraan 5 Hari</h3>
+            <div id="forecastList" class="forecast-list">
+                <p>Prakiraan akan muncul setelah cuaca ditampilkan.</p>
+            </div>
         </div>
     </div>
 
